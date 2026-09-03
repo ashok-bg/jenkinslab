@@ -5,6 +5,7 @@ pipeline {
         steps {
           echo 'building'
         }
+      }
         stage ('deploy'){
           steps{
             echo 'deploying'
