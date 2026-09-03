@@ -9,5 +9,8 @@ node {
    stage('deploy') {
     echo 'deploying'
   }
+   stage('validate') {
+    echo 'validating'
+  }
 }
     
