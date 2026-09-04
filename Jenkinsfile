@@ -12,6 +12,7 @@ pipeline {
         stage ('deploy'){
           steps{
             echo 'deploying'
+            sh './ hello.sh'
           }
         }
       }
