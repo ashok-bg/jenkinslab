@@ -9,10 +9,14 @@ pipeline {
           echo 'building'
         }
       }
+      stage ('test'){
+        steps {
+          echo 'testing'
+        }
         stage ('deploy'){
           steps{
             echo 'deploying'
-            sh './hello.sh'
+            
           }
         }
       }
